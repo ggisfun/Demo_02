@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4782D13F2C41A12100170CFC /* Demo_02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo_02.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4782D13F2C41A12100170CFC /* SlamDunk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlamDunk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4782D1422C41A12100170CFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4782D1442C41A12100170CFC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4782D1462C41A12100170CFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		4782D1362C41A12100170CFC = {
 			isa = PBXGroup;
 			children = (
-				4782D1412C41A12100170CFC /* Demo_02 */,
+				4782D1412C41A12100170CFC /* SlamDunk */,
 				4782D1402C41A12100170CFC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		4782D1402C41A12100170CFC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4782D13F2C41A12100170CFC /* Demo_02.app */,
+				4782D13F2C41A12100170CFC /* SlamDunk.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4782D1412C41A12100170CFC /* Demo_02 */ = {
+		4782D1412C41A12100170CFC /* SlamDunk */ = {
 			isa = PBXGroup;
 			children = (
 				4782D1422C41A12100170CFC /* AppDelegate.swift */,
@@ -64,15 +64,15 @@
 				4782D14D2C41A12200170CFC /* LaunchScreen.storyboard */,
 				4782D1502C41A12200170CFC /* Info.plist */,
 			);
-			path = Demo_02;
+			path = SlamDunk;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4782D13E2C41A12100170CFC /* Demo_02 */ = {
+		4782D13E2C41A12100170CFC /* SlamDunk */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4782D1532C41A12200170CFC /* Build configuration list for PBXNativeTarget "Demo_02" */;
+			buildConfigurationList = 4782D1532C41A12200170CFC /* Build configuration list for PBXNativeTarget "SlamDunk" */;
 			buildPhases = (
 				4782D13B2C41A12100170CFC /* Sources */,
 				4782D13C2C41A12100170CFC /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = Demo_02;
+			name = SlamDunk;
 			productName = Demo_02;
-			productReference = 4782D13F2C41A12100170CFC /* Demo_02.app */;
+			productReference = 4782D13F2C41A12100170CFC /* SlamDunk.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4782D13A2C41A12100170CFC /* Build configuration list for PBXProject "Demo_02" */;
+			buildConfigurationList = 4782D13A2C41A12100170CFC /* Build configuration list for PBXProject "SlamDunk" */;
 			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4782D13E2C41A12100170CFC /* Demo_02 */,
+				4782D13E2C41A12100170CFC /* SlamDunk */,
 			);
 		};
 /* End PBXProject section */
@@ -293,7 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Demo_02/Info.plist;
+				INFOPLIST_FILE = SlamDunk/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -304,7 +304,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Demo-02";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.SlamDunk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -320,7 +320,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Demo_02/Info.plist;
+				INFOPLIST_FILE = SlamDunk/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -331,7 +331,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Demo-02";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.SlamDunk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -342,7 +342,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4782D13A2C41A12100170CFC /* Build configuration list for PBXProject "Demo_02" */ = {
+		4782D13A2C41A12100170CFC /* Build configuration list for PBXProject "SlamDunk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4782D1512C41A12200170CFC /* Debug */,
@@ -351,7 +351,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4782D1532C41A12200170CFC /* Build configuration list for PBXNativeTarget "Demo_02" */ = {
+		4782D1532C41A12200170CFC /* Build configuration list for PBXNativeTarget "SlamDunk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4782D1542C41A12200170CFC /* Debug */,
